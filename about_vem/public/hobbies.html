@@ -3,21 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/crc1xhp.css">
     <!-- Page Title -->
     <title>My Hobbies</title>
 </head>
 <body>
+    <div class="botton">
+        <button id="style-toggle" type="button">Disable styles</button>
+    </div>
+
     <h2>My Hobbies</h2>
-    <ol>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+    <ol class="two-columns">
+        <li>Yoga</li>
+        <li>Video games</li>
+        <li>Crochet</li>
+        <li>Plants</li>
+        <li>Nail arts</li>
+        <li>Creative arts</li>
     </ol>
     <hr>
+
+    <div class="btn-wrapper-left">
+        <input type="button" value="Return to main page" onclick="history.go(-1)">
+    </div>
 
     <footer>
         <p>&copy; Vissolela Cundi. All rights reserved.</p>
     </footer>
+    <script src="js/style_toggle.js" defer></script>
 </body>
 </html>
