@@ -77,10 +77,14 @@ li {
     font-style: normal;
 }
 
-.skills {
+.programs {
     font-family: "komet", sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+
+.other-links {
+    list-style: none;
 }
 
 footer p {
