@@ -1,5 +1,6 @@
 body {
     background-color: #E0E1DD;
+    margin: 0;
 }
 
 .btn-wrapper-left {
@@ -27,6 +28,7 @@ img {
 hr {
     height: 5px;
     background-color: black;
+    border: 0;
 }
 
 h2 {
