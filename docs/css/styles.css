@@ -93,6 +93,7 @@ li {
     font-family: "komet", sans-serif;
     font-weight: 300;
     font-style: normal;
+    margin-right: 40px;
 }
 
 .programs {
@@ -115,7 +116,9 @@ li {
 }
 
 .btn-wrapper-left {
+    margin-top: 20px;
     margin-left: 30px;
+    margin-bottom: 30px;
 }
 
 footer p {
