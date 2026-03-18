@@ -3,10 +3,6 @@
     flex-direction: column;
 }
 
-/* =========================================
-   DISABLE LAYOUT MODE
-   ========================================= */
-
 .no-typography .container {
     display: block;
 }
